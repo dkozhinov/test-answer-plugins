@@ -1,0 +1,53 @@
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#   http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations
+# under the License.
+
+plugin:
+  algolia_search:
+    backend:
+      info:
+        name:
+          other: Algolia Search
+        description:
+          other: Use Algolia as a search engine.
+      config:
+        app_id:
+          title:
+            other: Application ID
+          description:
+            other: Your Algolia Application ID. <a href="https://dashboard.algolia.com/account/api-keys/all" target="_blank">Manage Your API keys</a>
+        public_api_key:
+          title:
+            other: Search-only API Key
+          description:
+            other: Your Algolia Search-only API Key (public).
+        api_key:
+          title:
+            other: Admin API Key
+          description:
+            other: Your Algolia ADMIN API Key (kept private).
+        index:
+          title:
+            other: Index name prefix
+          description:
+            other: This prefix will be prepended to your index names.
+        show_logo:
+          title:
+            other: Algolia logo
+          description:
+            other: Algolia requires that you keep the logo if you are using a free plan.
+          label:
+            other: Show Algolia logo
